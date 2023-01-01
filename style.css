@@ -173,9 +173,9 @@ ul li a {
 
 .block {
   display: block;
-  text-align: center;
+  /* text-align: center;
   margin-right: auto;
-  margin-left: auto;
+  margin-left: auto; */
 }
 
 .complete {
