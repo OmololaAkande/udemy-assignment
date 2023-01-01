@@ -7,7 +7,7 @@
 
 body {
   background-color: #fff;
-  max-width: 100%;
+
   color: #1c1d1f;
 }
 
@@ -145,7 +145,7 @@ ul li a {
 }
 
 .two {
-  width: 100%;
+  max-width: 100%;
   min-height: 100%;
   margin: 0px 24px;
   border: 1px solid black;
@@ -154,40 +154,82 @@ ul li a {
 }
 
 .whole {
+  max-width: 100%;
   display: flex;
   justify-content: space-between;
 }
+
+.wholes {
+  max-width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.dom {
+  width: 100%;
+}
+
+.block {
+  display: block;
+  text-align: center;
+  margin-right: auto;
+  margin-left: auto;
+}
+
 .complete {
   padding: 32px;
   min-height: 100%;
 }
 
-.complete-1 {
-  /* padding: 32px; */
-  min-height: 100%;
+.new-three {
+  max-width: 100%;
+  padding: 24px;
+  padding-right: 24px;
+}
+
+.join {
+  width: 20%;
+}
+
+.joined {
+  max-width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
 
 .table {
   width: 20%;
-  display: inline-block;
+}
+
+.tables {
+  width: 20%;
+  display: block;
+  margin: 0 aut0;
+}
+
+.tables img {
+  display: block;
   align-items: center;
-  justify-content: space-between;
 }
 
 .table img {
   display: block;
   align-items: center;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .three {
- width: 100%;
-  padding: 0px 24px;
-}
-
-.whole-1 {
+  max-width: 100%;
+  border: 1px solid black;
   width: 100%;
+
   display: flex;
-  justify-content: space-between;
+  justify-content: center;
+  align-items: center;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .foot {
@@ -223,7 +265,7 @@ p {
 }
 
 .dot {
-  width: 100%;
+  max-width: 90%;
 }
 
 .dot-1 {
@@ -371,7 +413,6 @@ div .num {
 }
 
 .four {
-  width: 100%;
   padding: 32px;
 }
 
