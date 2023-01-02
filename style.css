@@ -167,9 +167,9 @@ ul li a {
   justify-content: space-between;
 }
 
-.dom {
+/* .dom {
   width: 100%;
-}
+} */
 
 .block {
   display: block;
@@ -188,7 +188,8 @@ ul li a {
 }
 
 .join {
-  width: 100%;
+  width: 20%;
+  overflow: hidden;
 }
 
 .joined {
