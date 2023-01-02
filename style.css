@@ -2,7 +2,7 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  max-width: 100%;
+  /* max-width: 100%; */
 }
 
 body {
@@ -173,9 +173,7 @@ ul li a {
 
 .block {
   display: block;
-  /* text-align: center;
-  margin-right: auto;
-  margin-left: auto; */
+ 
 }
 
 .complete {
@@ -190,7 +188,7 @@ ul li a {
 }
 
 .join {
-  width: 20%;
+  width: 100%;
 }
 
 .joined {
@@ -542,4 +540,19 @@ div .cost {
 .check-1 {
   margin: 16px 0px 0px;
   font-size: 19px;
+}
+
+.five{
+  max-width: 100%;
+}
+
+.main-1a{
+  width:20%;
+  
+}
+
+.full{
+ display: flex; 
+justify-content: space-between;
+align-items: center; 
 }
